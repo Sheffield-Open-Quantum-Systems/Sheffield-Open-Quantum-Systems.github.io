@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papers – SOQS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1><span>SOQS</span> | Sheffield Open Quantum Systems</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="funding.html">Funding</a></li>
+          <li><a href="papers.html" class="active">Papers</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-title">
+    <div class="container">
+      <h2>Recent Papers</h2>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <p>Publications fetched automatically from <a href="https://www.semanticscholar.org/">Semantic Scholar</a>. Links to published (DOI) and arXiv versions provided where available.</p>
+
+      <div id="papers-loading">Loading papers...</div>
+      <div id="papers-container" style="display:none;"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Sheffield Open Quantum Systems | <a href="https://www.sheffield.ac.uk">University of Sheffield</a></p>
+    </div>
+  </footer>
+
+  <script>
+    fetch('data/papers.json')
+      .then(function (res) { return res.json(); })
+      .then(function (papers) {
+        var loading = document.getElementById('papers-loading');
+        var container = document.getElementById('papers-container');
+        loading.style.display = 'none';
+
+        if (papers.length === 0) {
+          loading.style.display = 'block';
+          loading.textContent = 'No papers loaded yet. Run the fetch script or trigger the GitHub Action.';
+          return;
+        }
+
+        container.style.display = 'block';
+
+        // Group papers by year
+        var byYear = {};
+        papers.forEach(function (paper) {
+          var year = paper.year || 'Preprint';
+          if (!byYear[year]) byYear[year] = [];
+          byYear[year].push(paper);
+        });
+
+        // Sort years descending
+        var years = Object.keys(byYear).sort(function (a, b) {
+          if (a === 'Preprint') return -1;
+          if (b === 'Preprint') return 1;
+          return parseInt(b) - parseInt(a);
+        });
+
+        years.forEach(function (year) {
+          var heading = document.createElement('h3');
+          heading.className = 'year-heading';
+          heading.textContent = year;
+          container.appendChild(heading);
+
+          var list = document.createElement('ul');
+          list.className = 'paper-list';
+
+          byYear[year].forEach(function (paper) {
+            var li = document.createElement('li');
+
+            // Build links
+            var links = '';
+            if (paper.links.doi) {
+              links += '<a href="' + paper.links.doi + '" target="_blank" rel="noopener">Published</a>';
+            }
+            if (paper.links.arxiv) {
+              if (links) links += ' &middot; ';
+              links += '<a href="' + paper.links.arxiv + '" target="_blank" rel="noopener">arXiv</a>';
+            }
+            if (paper.links.semantic_scholar) {
+              if (links) links += ' &middot; ';
+              links += '<a href="' + paper.links.semantic_scholar + '" target="_blank" rel="noopener">Semantic Scholar</a>';
+            }
+
+            // Full reference line
+            var ref = paper.reference || '';
+
+            li.innerHTML =
+              '<div class="title">' + paper.title + '</div>' +
+              '<div class="authors">' + paper.authors + '</div>' +
+              (ref ? '<div class="journal">' + ref + '</div>' : '') +
+              '<div class="paper-links">' + links + '</div>';
+            list.appendChild(li);
+          });
+
+          container.appendChild(list);
+        });
+      })
+      .catch(function () {
+        document.getElementById('papers-loading').textContent = 'Could not load papers.';
+      });
+  </script>
+</body>
+</html>
