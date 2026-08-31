@@ -1,19 +1,5 @@
 [
   {
-    "title": "Beyond the quantum regression theorem in variational polaron master equations: From Ohmic to super-Ohmic environments.",
-    "authors": "Matias Bundgaard-Nielsen, Jake Iles-Smith",
-    "year": 2026,
-    "venue": "The Journal of chemical physics",
-    "volume": "165 7",
-    "pages": "",
-    "reference": "The Journal of chemical physics, 165 7 (2026)",
-    "date": "2026-08-18",
-    "links": {
-      "doi": "https://doi.org/10.1063/5.0338834",
-      "semantic_scholar": "https://www.semanticscholar.org/paper/85d04cd7f31776939c863f38108bd7e2587e8c18"
-    }
-  },
-  {
     "title": "Efficient optimisation of multi-parameter quantum control protocols for strongly-coupled systems",
     "authors": "S. Meredith, Oliver Dudgeon, Wojciech Bukalski, A. Brash, Harry J. D. Miller, T. J. Elliott, Jake Iles-Smith",
     "year": 2026,
@@ -28,17 +14,18 @@
     }
   },
   {
-    "title": "Beyond the Quantum Regression Theorem in Variational Polaron Master Equations with Low-Dimensional Baths",
+    "title": "Beyond the quantum regression theorem in variational polaron master equations: From Ohmic to super-Ohmic environments.",
     "authors": "Matias Bundgaard-Nielsen, Jake Iles-Smith",
     "year": 2026,
-    "venue": "",
-    "volume": "",
+    "venue": "The Journal of chemical physics",
+    "volume": "165 7",
     "pages": "",
-    "reference": "(2026)",
+    "reference": "The Journal of chemical physics, 165 7 (2026)",
     "date": "2026-04-15",
     "links": {
+      "doi": "https://doi.org/10.1063/5.0338834",
       "arxiv": "https://arxiv.org/abs/2604.13541",
-      "semantic_scholar": "https://www.semanticscholar.org/paper/4864a8b58f096e2bb5caf68d29c5d43fdd701be7"
+      "semantic_scholar": "https://www.semanticscholar.org/paper/90bcfa559b3bf1661c7e8d428acdde87bd332f1c"
     }
   },
   {
@@ -175,7 +162,7 @@
   },
   {
     "title": "Vibronic effects on the quantum tunnelling of magnetisation in Kramers single-molecule magnets",
-    "authors": "A. Mattioni, Jakob K Staab, W. Blackmore, D. Reta, Jake Iles-Smith, A. Nazir, N. Chilton",
+    "authors": "A. Mattioni, Jakob K. Staab, W. Blackmore, D. Reta, Jake Iles-Smith, A. Nazir, N. Chilton",
     "year": 2023,
     "venue": "Nature Communications",
     "volume": "15",
@@ -190,7 +177,7 @@
   },
   {
     "title": "Vibronic Effects on the Quantum Tunnelling of Magnetisation in Single-Molecule Magnets",
-    "authors": "A. Mattioni, Jakob K Staab, W. Blackmore, D. Reta, Jake Iles-Smith, A. Nazir, N. Chilton",
+    "authors": "A. Mattioni, Jakob K. Staab, W. Blackmore, D. Reta, Jake Iles-Smith, A. Nazir, N. Chilton",
     "year": 2023,
     "venue": "",
     "volume": "",
@@ -719,6 +706,21 @@
     "date": "2013-10-31",
     "links": {
       "semantic_scholar": "https://www.semanticscholar.org/paper/154b2d27c224c3c25955d782a928cf816ce918f6"
+    }
+  },
+  {
+    "title": "Environmental dynamics, correlations, and the emergence of noncanonical equilibrium states in open quantum systems",
+    "authors": "Jake Iles-Smith, Neill Lambert, A. Nazir",
+    "year": 2013,
+    "venue": "Physical Review A",
+    "volume": "90",
+    "pages": "032114",
+    "reference": "Physical Review A, 90, 032114 (2013)",
+    "date": "2013-10-31",
+    "links": {
+      "doi": "https://doi.org/10.1103/PhysRevA.90.032114",
+      "arxiv": "https://arxiv.org/abs/1311.0016",
+      "semantic_scholar": "https://www.semanticscholar.org/paper/d235ef203c4401bf63666aee0905e50e0b3cf36d"
     }
   }
 ]
