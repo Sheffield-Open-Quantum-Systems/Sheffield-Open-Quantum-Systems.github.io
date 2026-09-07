@@ -190,7 +190,7 @@
   },
   {
     "title": "Combining experiments on luminescent centres in hexagonal boron nitride with the polaron model and ab initio methods towards the identification of their microscopic origin",
-    "authors": "M. Fischer, A. Sajid, Jake Iles-Smith, A. Hötger, Denys I Miakota, M. Svendsen, C. Kastl, S. Canulescu, S. Xiao, M. Wubs, K. Thygesen, A. Holleitner, N. Stenger",
+    "authors": "M. Fischer, A. Sajid, Jake Iles-Smith, Alexander Hötger, Denys I Miakota, M. Svendsen, C. Kastl, S. Canulescu, S. Xiao, M. Wubs, K. Thygesen, A. Holleitner, N. Stenger",
     "year": 2022,
     "venue": "Nanoscale",
     "volume": "15",
@@ -247,7 +247,7 @@
   },
   {
     "title": "Tailoring solid-state single-photon sources with stimulated emissions",
-    "authors": "Yuming Wei, Shunfa Liu, Xueshi Li, Ying Yu, X. Su, Shulun Li, X. Shang, Hanqing Liu, H. Hao, H. Ni, Siyuan Yu, Zhichuan Niu, Jake Iles-Smith, Jin Liu, Xuehua Wang",
+    "authors": "Yuming Wei, Shunfa Liu, Xueshi Li, Ying Yu, Xiangbin Su, Shulun Li, Xiangjun Shang, Hanqing Liu, Hui-ming Hao, H. Ni, Siyuan Yu, Zhichuan Niu, Jake Iles-Smith, Jin Liu, Xuehua Wang",
     "year": 2021,
     "venue": "Nature Nanotechnology",
     "volume": "17",
@@ -291,7 +291,7 @@
   },
   {
     "title": "Coherent Scattering from Quantum Dots: beyond the Atomic Picture",
-    "authors": "A. Brash, Jake Iles-Smith, C. Phillips, J. O’Hara, B. Royall, L. Wilson, M. Skolnick, A. M. Fox, D. McCutcheon, E. Clarke, J. M⊘rk, A. Nazir",
+    "authors": "A. Brash, Jake Iles-Smith, C. Phillips, J. O'Hara, B. Royall, L. Wilson, M. Skolnick, A. M. Fox, D. McCutcheon, E. Clarke, J. Mørk, A. Nazir",
     "year": 2020,
     "venue": "2020 Conference on Lasers and Electro-Optics (CLEO)",
     "volume": "",
@@ -380,7 +380,7 @@
   },
   {
     "title": "Light Scattering from Solid-State Quantum Emitters: Beyond the Atomic Picture.",
-    "authors": "A. Brash, Jake Iles-Smith, C. Phillips, D. McCutcheon, J. O’Hara, E. Clarke, B. Royall, L. Wilson, J. Mørk, M. Skolnick, A. M. Fox, A. Nazir",
+    "authors": "A. Brash, Jake Iles-Smith, C. Phillips, D. McCutcheon, J. O'Hara, E. Clarke, B. Royall, L. Wilson, J. Mørk, M. Skolnick, A. M. Fox, A. Nazir",
     "year": 2019,
     "venue": "Physical review letters",
     "volume": "123 16",
@@ -410,7 +410,7 @@
   },
   {
     "title": "Generating Maximal Entanglement between Spectrally Distinct Solid-State Emitters",
-    "authors": "K. Joanesarson, D. Hurst, Jake Iles-Smith, J. M⊘rk, P. Kok",
+    "authors": "K. Joanesarson, D. Hurst, Jake Iles-Smith, Jesper M⊘rk, P. Kok",
     "year": 2019,
     "venue": "2019 Conference on Lasers and Electro-Optics Europe & European Quantum Electronics Conference (CLEO/Europe-EQEC)",
     "volume": "",
@@ -523,7 +523,7 @@
   },
   {
     "title": "Intrinsic and environmental effects on the interference properties of a high-performance quantum dot single-photon source",
-    "authors": "S. Gerhardt, Jake Iles-Smith, D. McCutcheon, Yu-Ming He, S. Unsleber, S. Betzold, N. Gregersen, J. Mørk, S. Hofling, C. Schneider",
+    "authors": "S. Gerhardt, Jake Iles-Smith, D. McCutcheon, Yu-ming He, S. Unsleber, S. Betzold, N. Gregersen, J. Mørk, S. Hofling, C. Schneider",
     "year": 2017,
     "venue": "Physical Review B",
     "volume": "97",
@@ -581,7 +581,7 @@
   },
   {
     "title": "Phonon limit to simultaneous near-unity efficiency and indistinguishability in semiconductor single photon sources",
-    "authors": "D. McCutcheon, Jake Iles-Smith, A. Nazir, J. M⊘rk",
+    "authors": "D. McCutcheon, Jake Iles-Smith, A. Nazir, Jesper M⊘rk",
     "year": 2017,
     "venue": "2017 Conference on Lasers and Electro-Optics Europe & European Quantum Electronics Conference (CLEO/Europe-EQEC)",
     "volume": "",
@@ -610,7 +610,7 @@
   },
   {
     "title": "Phonon limit to simultaneous near-unity efficiency and indistinguishability in semiconductor single photon sources",
-    "authors": "Jake Iles-Smith, D. McCutcheon, A. Nazir, J. M⊘rk",
+    "authors": "Jake Iles-Smith, D. McCutcheon, A. Nazir, Jesper M⊘rk",
     "year": 2016,
     "venue": "2017 Conference on Lasers and Electro-Optics (CLEO)",
     "volume": "",
