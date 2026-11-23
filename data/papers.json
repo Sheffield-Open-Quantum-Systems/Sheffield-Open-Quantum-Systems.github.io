@@ -1,7 +1,7 @@
 [
   {
     "title": "Efficient optimisation of multi-parameter quantum control protocols for strongly-coupled systems",
-    "authors": "S. Meredith, Oliver Dudgeon, Wojciech Bukalski, A. Brash, Harry J. D. Miller, T. J. Elliott, Jake Iles-Smith",
+    "authors": "Sion Meredith, Oliver Dudgeon, W. Bukalski, A. Brash, H. Miller, T. Elliott, Jake Iles-Smith",
     "year": 2026,
     "venue": "",
     "volume": "",
@@ -30,7 +30,7 @@
   },
   {
     "title": "Resonant Excitation Induced Vibronic Mollow Triplets",
-    "authors": "Devashish Pandey, C. Koks, M. Wubs, Nicolas Stenger, Jake Iles-Smith",
+    "authors": "Devashish Pandey, C. Koks, M. Wubs, N. Stenger, Jake Iles-Smith",
     "year": 2026,
     "venue": "",
     "volume": "",
@@ -58,7 +58,7 @@
   },
   {
     "title": "Markovian Approach to N-Photon Correlations beyond the Quantum Regression Theorem.",
-    "authors": "M. Salamon, Oliver Dudgeon, A. Nazir, Jake Iles-Smith",
+    "authors": "Mateusz Salamon, Oliver Dudgeon, A. Nazir, Jake Iles-Smith",
     "year": 2025,
     "venue": "Physical review letters",
     "volume": "136 8",
@@ -73,7 +73,7 @@
   },
   {
     "title": "Optical spin initialization and readout with a cavity-coupled quantum dot in an in-plane magnetic field",
-    "authors": "Samuel J. Sheldon, A. Brash, M. Skolnick, A. M. Fox, Jake Iles-Smith",
+    "authors": "S. Sheldon, A. Brash, M. Skolnick, A. M. Fox, Jake Iles-Smith",
     "year": 2024,
     "venue": "Physical Review B",
     "volume": "",
@@ -117,7 +117,7 @@
   },
   {
     "title": "On-demand heralded MIR single-photon source using a cascaded quantum system",
-    "authors": "Jake Iles-Smith, M. Svendsen, Angel Rubio, M. Wubs, Nicolas Stenger",
+    "authors": "Jake Iles-Smith, M. Svendsen, Á. Rubio, M. Wubs, N. Stenger",
     "year": 2024,
     "venue": "Science Advances",
     "volume": "11",
@@ -220,7 +220,7 @@
   },
   {
     "title": "Optical Spin Initialisation and Readout with a Cavity-Coupled Quantum Dot in an In-Plane Magnetic Field",
-    "authors": "Samuel Sheldon, A. Brash, M. Skolnick, A. Fox, Jake Iles-Smith",
+    "authors": "S. Sheldon, A. Brash, M. Skolnick, A. Fox, Jake Iles-Smith",
     "year": 2022,
     "venue": "",
     "volume": "",
@@ -247,7 +247,7 @@
   },
   {
     "title": "Tailoring solid-state single-photon sources with stimulated emissions",
-    "authors": "Yu-Ming Wei, Shun-Fa Liu, Xue-Shi Li, Ying Yu, Xiang-Bin Su, Shu-Lun Li, Xiang-Jun Shang, Hanqing Liu, Hui-Ming Hao, Hai-Qiao Ni, Siyuan Yu, Zhi-Chuan Niu, Jake Iles-Smith, Jin Liu, Xue-Hua Wang",
+    "authors": "Yu-Ming Wei, Shun-Fa Liu, Xue-Shi Li, Ying Yu, Xiang-Bin Su, Shu-Lun Li, Xiang-Jun Shang, Hanqing Liu, Hui-Ming Hao, H. Ni, Siyuan Yu, Zhi-Chuan Niu, Jake Iles-Smith, Jin Liu, Xue-Hua Wang",
     "year": 2021,
     "venue": "Nature Nanotechnology",
     "volume": "17",
@@ -262,7 +262,7 @@
   },
   {
     "title": "Exact Dynamics of Nonadditive Environments in Non-Markovian Open Quantum Systems",
-    "authors": "Dominic Gribben, D. Rouse, Jake Iles-Smith, A. Strathearn, Henry P. Maguire, P. Kirton, A. Nazir, E. Gauger, B. Lovett",
+    "authors": "Dominic Gribben, D. M. Rouse, Jake Iles-Smith, A. Strathearn, Henry Maguire, P. Kirton, A. Nazir, E. Gauger, B. Lovett",
     "year": 2021,
     "venue": "PRX Quantum",
     "volume": "",
@@ -320,7 +320,7 @@
   },
   {
     "title": "Few-photon transport in Fano-resonance waveguide geometries",
-    "authors": "K. Joanesarson, Jake Iles-Smith, Mikkel Heuck, Jesper Mørk",
+    "authors": "K. Joanesarson, Jake Iles-Smith, Mikkel Heuck, J. Mørk",
     "year": 2020,
     "venue": "Physical Review A",
     "volume": "101",
@@ -335,7 +335,7 @@
   },
   {
     "title": "Phonon-Induced Optical Dephasing in Single Organic Molecules.",
-    "authors": "C. Clear, R. C. Schofield, K. D. Major, Jake Iles-Smith, A. Clark, D. McCutcheon",
+    "authors": "C. Clear, R. C. Schofield, K. Major, Jake Iles-Smith, A. Clark, D. McCutcheon",
     "year": 2020,
     "venue": "Physical review letters",
     "volume": "124 15",
@@ -410,7 +410,7 @@
   },
   {
     "title": "Generating Maximal Entanglement between Spectrally Distinct Solid-State Emitters",
-    "authors": "D. L. Hurst, K. Joanesarson, Jake Iles-Smith, Jesper Mørk, P. Kok",
+    "authors": "D. L. Hurst, K. Joanesarson, Jake Iles-Smith, J. Mørk, P. Kok",
     "year": 2019,
     "venue": "2019 Conference on Lasers and Electro-Optics Europe & European Quantum Electronics Conference (CLEO/Europe-EQEC)",
     "volume": "",
@@ -439,7 +439,7 @@
   },
   {
     "title": "Environmental Nonadditivity and Franck-Condon physics in Nonequilibrium Quantum Systems.",
-    "authors": "Henry P. Maguire, Jake Iles-Smith, A. Nazir",
+    "authors": "Henry Maguire, Jake Iles-Smith, A. Nazir",
     "year": 2018,
     "venue": "Physical review letters",
     "volume": "123 9",
